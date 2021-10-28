@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/* ------- BANNERS -------- */
+/* --Index banner -- */
+.banner {
+    background: rgba(0, 0, 0, .40) url(resources/Virtual-Helsinki.jpeg);
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 650px;
+}
+
+/* -- History banner -- */
+.historyBanner {
+    background: rgba(0, 0, 0, .40) url(resources/oldHki.jpeg);
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 400px;  
+    text-align: center;
+}
+
+
+.banner-text {
+    color:#fff;
+    text-align: center;
+    padding: 250px;
+}
+.banner h1,
+.historyBanner h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 70px;
+    color: #fff;
+}
+.banner h2 {
+    font-family:'Prompt', sans-serif;;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* ------- NAVIGATION BAR ------- */
+.navbar {
+    background-color: #b3b3b3;
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    text-align: center;    
+}
+ .navbar li {
+    display: inline-block;
+    font-family: 'Koulen', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 30px 0;
+    color: #fff;
+}
+.navbar a {
+     text-decoration: none;
+     line-height: 30px;
+     padding: 30px;
+     color:#fff;
+ }
+ .navbar a:hover {
+     background-color: #999999;
+     transition: 0.6s;
+     cursor: pointer;
+ }
+
+
+/* ------ index page ------ */
+ .frontPageIntro  {
+     width: 60%;
+     margin: 0 auto;
+     text-align: center;
+     font-family: 'Yantramanav', sans-serif;
+     font-size: 18px;
+     font-weight: 300;
+     color: #1a1a1a;
+ }
+ .frontPageIntro h3 {
+     font-size: 33px;
+     margin-top: 60px;
+     margin-bottom: 30px;
+ }
+ .frontPageIntro a {
+     text-decoration: none;
+     color: 
+ }
+ .frontPageIntro a:hover {
+     text-decoration: underline;
+ }
+
+.hikingImg {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.hikingImg #nuuksio {
+    width: 100%;
+    height: auto;
+}
+
+#intro2 {
+     margin-bottom: 20px;
+ }
+
+/* ------ Index page: find out more button ------ */
+
+#findOutBtn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.findOutBtn {
+    background-image: linear-gradient(to right, pink, lightblue);
+    color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    font-family: 'Koulen', sans-serif;
+    font-size: 18px;
+    padding: 10px 75px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.findOutBtn:hover {
+    border: 1px solid #1a1a1a;
+}
+a.findOutBtn:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.6s;
+    color: #1a1a1a;
+}
+
+ /* ------ History Page ------ */
+
+ .historyPageContent {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+#intro {
+    padding: 70px 100px;
+}
+.historyPageContent h4 {
+    padding-bottom: 5px;
+}
+#russianRule {
+    padding-top: 35px;
+}
+#independency {
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+ 
+
+ /* ------ footer ------ */
+ footer {
+     padding-top: 20px;
+     background-color: #b3b3b3;
+     padding-left: 10px;
+     font-family: 'Yantramanav';
+     font-weight: 300;
+     color: #fff;
+     right: -250px;
+     padding-bottom: 10px;
+ }
+
+ footer li {
+    display: inline-block;
+    
+ }
+
+ footer li a {
+     text-decoration: none;
+     padding:10px;
+     color: #fff;
+ }
