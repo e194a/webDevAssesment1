@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>experiment</title>
-    <!-- CSS -->
+    <title>Helsinki</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="style.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Prompt:wght@600&family=Yantramanav:wght@100;300;500&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -23,9 +26,9 @@
     <!------- Navigation bar --------->
     <nav class="navbar">
         <ul>
-            <li><a href="" target="_blank">Home</a></li>
-            <li><a href="" target="_blank">History</a></li>
-            <li><a href="" target="_blank">Must Do</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="HelHistory.html">History</a></li>
+            <li><a href="visitHel.html">Must Do</a></li>
         </ul>
     </nav>
 
@@ -48,6 +51,10 @@
     
         <div class="hikingImg">
             <img id="nuuksio" src="resources/nuuksio.jpg" alt="Nuuksio in winter">
+            <div class="photoInfo">
+                <a href="#"><creativecommons.org/a>
+                <a href="#">name of the dude </a>
+            </div>
         </div>
 
         <div id="intro2">
@@ -61,23 +68,17 @@
         </div>
 
         <!------- MAPS -------->
-        <div>
-            <p>The Metropolitan area of Helsinki consists of multiple cities, accomodating about 1.5 million people. There're three main cities, Helsinki, Espoo, ans Vantaa.
+        <div class="map-container">
+            <p class="map-text">The Metropolitan area of Helsinki consists of multiple cities, accomodating about 1.5 million people. There're three main cities, Helsinki, Espoo, ans Vantaa.
                 Espoo has multiple bigger hubs with shopping malls and homes one of the most perstigious universities in the country, the Aalto University, that is 
-                internationally known. Vantaa, situated to the Norht of Helsinki has mainly suburbian areas. If you fly to Helsinki, you'll arrive 
+                internationally known. Vantaa, situated to the Norht of Helsinki has mainly suburbian areas. If you fly to Helsinki, you'll arrive to the Helsinki-Vantaa airport
+                from which the city center can be reached in a half an hour via train.
             </p>
-            <div class="map">
+            <div class="map">§
                 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=24.761453568935398%2C60.12916165678962%2C25.049844682216644%2C60.25442968347738&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/60.1919/24.9056">View Larger Map</a></small>
            </div>
         </div>
         
-
-        <!-----
-        <div class="map">
-             <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=24.761453568935398%2C60.12916165678962%2C25.049844682216644%2C60.25442968347738&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/60.1919/24.9056">View Larger Map</a></small>
-        </div>
-        ------> 
-    
     </section>
 
 <!------- Footer ------->
@@ -87,7 +88,7 @@
             <p>Made as a part of the course CSXXXX</p>
         </div>
 
-        <div class="">
+        <div class="footerLinks">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">History</a></li>
