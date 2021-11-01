@@ -1,6 +1,7 @@
 # webDevAssesment1
 
 Student ID 52091503
+Essi Parviainen
 
 I wanted to get a very minimalistic and clean look for the page, and keep it professional
 looking at the same time. Chose to use very neutral colors (white, gray, black) as 
@@ -14,6 +15,9 @@ a lighter gray for the navigation bar to start with, but then decided to go dark
 the text was not as easily readable as I wanted. The history page is definitely the plainest 
 of the sites, but I did that intentionally - the page is very black and white, just like 
 old films. 
+
+I decided to go for a very simple and clear navigation bar that would stick to the top when scrolling
+for easy access to other pages. It has the same font as the banners for consistency.
 
 I encountered a bunch of problems while working on the site, and it surely took me a while
 to get this together being my first site ever. Bootstrap destroyed my page layouts - I eneded up cutting
@@ -31,5 +35,5 @@ of the footer, but could not make it work. I feel like there's a simple answer t
 I just can't see it at the moment. 
 
 I also wanted to implement grids to the first two pages, but then ran out of time. I think I will 
-continue to develop this page after I've turned it in (on my computer, not on canva or git)
+continue to develop this page after I've turned it in (on my computer, not on codio or git)
 to see how to use those.
