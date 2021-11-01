@@ -1,5 +1,7 @@
 # webDevAssesment1
 
+Student ID 52091503
+
 I wanted to get a very minimalistic and clean look for the page, and keep it professional
 looking at the same time. Chose to use very neutral colors (white, gray, black) as 
 I felt like a turstworthy tourist site would not be filled with super bright colors overall.
